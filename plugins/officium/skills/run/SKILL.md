@@ -44,6 +44,8 @@ For a **quality screen** or an **industry funnel**, give each analyst the full l
 
 If you cannot use agents, do the four parts yourself, one after the other, in the same order.
 
+The four analysts run on Sonnet, which is quick and light on the person's Claude allowance, because their job is mostly gathering and checking facts. You, the lead, run on whatever model the person chose (Opus is a good choice), because the judgment happens in steps 4 and 5.
+
 ## 4. Lead: put it together
 
 You are the lead. With the four memos in hand:

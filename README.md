@@ -18,7 +18,7 @@ Then pick a company on the site and click **Research with my Claude**.
 
 - `skills/run`: the routine (collect the job, research, write the report and card, send it back) and its references: report kinds, ground rules for numbers, report layout, the card.
 - `skills/run/scripts`: ai-berkshire's calculation tools (`financial_rigor.py`, `terminal_value.py`, standard library only).
-- `agents`: the four analysts. Agents run in Cowork and Claude Code; in a plain chat the routine does the four parts itself.
+- `agents`: the four analysts. They run on Sonnet (fact-gathering, light on usage); the lead runs on the model chosen in the scheduled task or chat (Opus recommended). Agents run in Cowork and Claude Code; in a plain chat the routine does the four parts itself.
 
 The topic and note you type are treated as data, never as instructions. Nothing here is investment advice.
 
