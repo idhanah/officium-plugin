@@ -1,0 +1,8 @@
+{
+  "name": "officium",
+  "version": "1.0.0",
+  "description": "Research the companies you queued on the Officium Advocati Diaboli site with your own Claude: four analyst agents and a lead, built on the ai-berkshire framework (Buffett, Munger, Duan Yongping, Li Lu). The report goes back to the site.",
+  "author": { "name": "Officium Advocati Diaboli" },
+  "license": "MIT",
+  "keywords": ["investing", "research", "value investing", "ai-berkshire"]
+}

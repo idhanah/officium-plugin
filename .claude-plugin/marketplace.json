@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "officium",
+  "description": "Officium Advocati Diaboli: research companies with your own Claude, the ai-berkshire way, and send the report to the Officium site",
+  "owner": { "name": "Officium Advocati Diaboli" },
+  "plugins": [
+    {
+      "name": "officium",
+      "description": "Collects the research you queued on the Officium site, researches it with four analyst agents (business, numbers, industry, risks) and a lead, and sends the formatted report back to the site",
+      "version": "1.0.0",
+      "source": "./plugins/officium",
+      "category": "productivity"
+    }
+  ]
+}
