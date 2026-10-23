@@ -19,6 +19,7 @@ The card is a JSON object the site shows above the report and in its lists. Send
 | `next` | `{ "text": "Q3 results and the full-year outlook", "until": "2026-11-05" }` (`until` only when the date is known) |
 | `bands` | optional, company reports in `$`, `€`, `£` or `₹` only: `{ "cur": "$", "bear": 70, "base": 95, "bull": 130, "price": 102.71, "zone": 85, "zoneLabel": "Clearly attractive below $85", "note": "3-year scenarios discounted to today at 10%" }`. Values are per share, as numbers, with `bear <= base <= bull`. Leave `bands` out for other currencies. |
 | `sym` | optional: the Yahoo Finance symbol, e.g. `"7974.T"`, `"ASML.AS"`, `"PNR"` |
+| `benchmark` | optional, with `sym`: the sector the share is compared with on the site's scorecard, `{ "sym": "XLK", "name": "US technology", "fund": "Technology Select Sector SPDR" }`: a sector ETF or index with a Yahoo Finance symbol. The site fills in its level on the research day; without it, a broad market index is used. |
 | `plan` | optional: `{ "none": "what to do if you do not own it", "holding": "what to do if you do", "add": ["signals to buy more"], "sell": ["signals to sell"] }` |
 
 Example (a made-up company, for the shape only):
